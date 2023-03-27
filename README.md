@@ -2,6 +2,10 @@
 
 This is a simple URL shortener web application built with PHP and MySQL.
 [DEMO](https://shortify.mimoudix.com)
+<p align="center">
+  <img src="capture.png" alt="shortify.mimoudix.com"/>
+</p>
+
 
 ## Features
 
