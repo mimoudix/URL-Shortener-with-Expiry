@@ -1,0 +1,6 @@
+RewriteEngine On
+# Redirect requests to the short URL to the script that handles the redirection
+RewriteRule ^u/([a-zA-Z0-9]+)$ /redirect.php?code=$1 [L]
+# Remove .php extension from URLs
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^(.*)$ $1.php [L]
