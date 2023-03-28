@@ -3,10 +3,6 @@
 This is a simple URL shortener web application built with PHP and MySQL.
 [DEMO](https://shortify.mimoudix.com)
 
-<p align="center">
-  <img src="capture.png" height="400" alt="shortify.mimoudix.com"/>
-</p>
-
 ## Features
 
 - Shortens URLs to a six-character alphanumeric code
@@ -26,7 +22,3 @@ This is a simple URL shortener web application built with PHP and MySQL.
 2. Upload all the files to your web server
 3. Run the script and fill in your database credentials
 4. Done !
-
-<p align="center">
-  <img src="installer.png" height="600" alt="shortify.mimoudix.com"/>
-</p>
