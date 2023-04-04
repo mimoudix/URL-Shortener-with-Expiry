@@ -45,7 +45,7 @@ require_once('config.php');
                     <option value="0">No Expiry</option>
                 </select>
             </div>
-            <form action="#" class="mt-6 sm:mx-auto sm:max-w-lg sm:flex">
+            <div class="mt-6 sm:mx-auto sm:max-w-lg sm:flex">
                 <div class="min-w-0 flex-1">
                     <label for="url-input" class="sr-only">URL</label>
                     <input id="url-input" type="url" class="block w-full border border-transparent rounded-md px-5 py-3 text-base text-gray-900 placeholder-gray-500 shadow-sm focus:outline-none focus:border-transparent focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600" placeholder="https://AnnoyingLinkHere.com">
@@ -53,9 +53,9 @@ require_once('config.php');
 
 
                 <div class="mt-4 sm:mt-0 sm:ml-3">
-                    <button type="submit" id="submit-button" class="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">Shortify !</button>
+                    <button id="submit-button" class="block w-full rounded-md border border-transparent px-5 py-3 bg-indigo-500 text-base font-medium text-white shadow hover:bg-indigo-400 focus:outline-none focus:ring-2 focus:ring-white focus:ring-offset-2 focus:ring-offset-indigo-600 sm:px-10">Shortify !</button>
                 </div>
-            </form>
+            </div>
         </div>
 
         <p id="output" class="mt-4 animate-pulse text-base font-semibold text-indigo-600">
