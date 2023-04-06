@@ -1,13 +1,10 @@
 {
-  "name": "profily",
+  "name": "URL-Shortener-with-Expiry",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx tailwindcss -i ./input.css -o ./css/tailwind.css --watch"
+    "start": "npx tailwindcss -i ./input.css -o ./output.css --watch"
   },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
-  },
-  "dependencies": {
-    "@tailwindcss/forms": "^0.5.3"
   }
 }
