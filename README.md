@@ -14,6 +14,7 @@ This is a simple URL shortener web application built with PHP and MySQL.
 - PHP 7 or later
 - PDO extension for PHP
 - MySQL 5.6 or later
+- PDO_MYSQL
 - Apache 'mod_rewrite' module
 
 ## Installation
@@ -56,7 +57,7 @@ To use the URL shortener, simply enter a URL into the input field on the homepag
 
 ## Demo
 
-You can see a live demo of the URL shortener in action [here](https://shortify.example.com).
+You can see a live demo of the URL shortener in action [here](https://shortify.mimoudix.com).
 
 ## License
 
