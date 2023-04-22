@@ -57,7 +57,7 @@ To use the URL shortener, simply enter a URL into the input field on the homepag
 
 ## Demo
 
-You can see a live demo of the URL shortener in action [here](https://shortify.mimoudix.com).
+You can see a live demo of the URL shortener in action [here](https://shortify.mimoudix.wtf).
 
 ## License
 
