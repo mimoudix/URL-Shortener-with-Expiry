@@ -57,12 +57,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Installation</title>
     <link rel="stylesheet" href="output.css">
 </head>
-
 <body>
     <?php if (isset($_GET['error']) && $_GET['error'] == 'connection') : ?>
         <p style="color: red;">Error: Could not establish a database connection with the provided credentials.</p>
@@ -121,8 +119,5 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             </div>
         </form>
     </div>
-
-
 </body>
-
 </html>
