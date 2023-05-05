@@ -11,7 +11,7 @@ This is a simple URL shortener web application built with PHP and MySQL.
 
 ## Requirements
 
-- PHP 7 or later
+- PHP 7 or later (tested with PHP 8)
 - PDO extension for PHP
 - MySQL 5.6 or later
 - PDO_MYSQL
