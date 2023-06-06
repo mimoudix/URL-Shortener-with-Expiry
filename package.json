@@ -2,7 +2,7 @@
   "name": "URL-Shortener-with-Expiry",
   "version": "1.0.0",
   "scripts": {
-    "start": "npx tailwindcss -i ./input.css -o ./output.css --watch"
+    "start": "npx tailwindcss -i ./input.css -o ./output.css --watch --minify"
   },
   "devDependencies": {
     "tailwindcss": "^3.2.7"
