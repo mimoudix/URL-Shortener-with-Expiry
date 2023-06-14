@@ -1,7 +1,7 @@
 # PHP URL Shortener
 
 This is a simple URL shortener web application built with PHP and MySQL.
-[DEMO](https://shortify.mimoudix.com)
+[DEMO](https://shortify.profily.link)
 
 ## Features
 
